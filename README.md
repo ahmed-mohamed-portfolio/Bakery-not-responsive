@@ -8,3 +8,9 @@
 3️⃣ ﺑﺎﻟﻨﺴﺒﺔ ﻟﻠـ icons ﻓﺘﻘﺪﺭ ﺗﻀﻴﻔﻬﺎ ﻛـ img ﻣﺆﻗﺘﺎ ﻟﺤﺪ ﻣﺎ ﻧﺎﺧﺪ ﻃﺮﻳﻘﺔ ﺃﻓﻀﻞ .
 
 الديدلاين: يوم الاتنين ٢٤-٣ الساعه ١٠م
+
+
+
+مساء الفل يا شباب
+صور الأسايمنت كلها للي محتاجها
+https://drive.google.com/file/d/1iZLJ7s6hQuKg9J0BSTCNYMZy-pAg1YA_/view?usp=drive_link
