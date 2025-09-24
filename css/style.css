@@ -1,0 +1,682 @@
+* {
+    /* till now i dont need to use it 
+    but it solve problem about padding my be i will see it  */
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+
+.site-header {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* sections */
+.nav-right {
+    text-align: right;
+    width: 49%;
+    vertical-align: 25px;
+    display: inline-block;
+}
+
+
+.menu-item {
+    display: inline-block;
+    height: 100%;
+    width: 15%;
+}
+
+
+.menu-item-title {
+    font-family: "Alegreya";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.colorTxtWhite {
+    color: #fff;
+    ;
+}
+
+
+.colorTxspec {
+    color: #e0dcd2;
+}
+
+
+.smallline {
+    border-top: 3px solid rgb(174, 151, 104);
+}
+
+.paddingline {
+    padding: 21px 0 0 0;
+}
+
+
+/* remove underline of link name */
+.no-underline {
+    text-decoration: none;
+}
+
+
+/* logo */
+.nav-left {
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+}
+
+
+.logo {
+    height: auto;
+    width: 40%;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+/* ----------------------- */
+/*        Home Inner       */
+/* ----------------------- */
+
+
+/* first background */
+.inner {
+    background-image: url(./../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    /*general problem solution */
+
+
+}
+
+
+.Inner-Details {
+    width: 700px;
+    margin: auto;
+    /*make the container in the middle */
+    margin-top: 200px;
+    margin-bottom: 200px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.font {
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+}
+
+
+.font2 {
+    font-family: "Alegreya";
+    font-weight: 400;
+}
+
+
+.font-size-p1 {
+    font-size: 22px;
+}
+
+
+.font-size-p2 {
+    font-size: 24px;
+}
+
+
+.font-size-h {
+    font-size: 76px;
+}
+
+
+.button1 {
+    background-color: #8e7754;
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+.button2 {
+    background-color: transparent;
+    padding: 15px 28px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-left: 12px;
+}
+
+
+.font-size-btn {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.mouse {
+
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    width: 32px;
+    height: 50px;
+    border-radius: 24px;
+    margin-left: 49%;
+    margin-bottom: 50px;
+
+}
+
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-left: 33%;
+    margin-top: 15%;
+}
+
+/* ----------------------- */
+/*       WhoWEAre part     */
+/* ----------------------- */
+
+.WhoWEAre {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 55.5px;
+    margin-left: 55.5px;;
+    background-color: #fff;
+}
+
+.img1 {
+    width: 100%;
+    height: 520px;
+}
+
+.img11 {
+
+    margin-right: 2%;
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+}
+
+.color-who-we-are {
+    color: #303030;
+}
+
+
+.color-who-we-are-color2 {
+    color: #686868;
+}
+
+
+.whoweare-txt {
+    margin-left: 2%;
+    text-align: left;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.icon-txt {
+    float: left;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 0.8em;
+}
+
+
+.text-font {
+    font-family: "Alegreya";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.p-txt {
+    text-align: left;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+
+
+.whoweare-txt .marginBotton
+{
+    padding-bottom: 1%;
+}
+.CreateIcons{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-right: 5px;
+    border: 1px solid rgb(226, 226, 226);
+    float: left;
+    
+}
+
+
+
+.marginBotton{
+
+    margin-bottom: 70px;
+}
+
+
+
+
+
+/* ----------------------- */
+/* Our Location */
+/* ----------------------- */
+
+
+
+.Our-Location {
+
+
+    padding-left: 55.5px;
+    padding-right: 55.5px;
+    color: #686868;
+    background-color: #f8f8f8;
+
+}
+
+
+.img2 {
+    height: 452px;
+    width: 550px;
+    text-align: right;
+    float: right;
+    margin-top: 8%;
+    margin-bottom: 8%;
+
+}
+
+.color-Our-Location {
+    color: #303030;
+}
+
+.Our-Location-txt {
+    margin-top: 11%;
+    margin-bottom: 11%;
+    float: left;
+    text-align: left;
+    width: 45%;
+
+}
+
+
+.text-font-1 {
+    font-family: "Alegreya";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.p-txt-1 {
+    text-align: left;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+
+
+
+.clear-fix {
+    clear: both;
+}
+
+
+
+
+/* ----------------------- */
+/*        Our Baking       */ 
+/* ----------------------- */
+.Our-Baking-main {
+
+    padding-left: 55.5px;
+    padding-right: 55.5px;
+    margin-bottom: 7%;
+    background-color: #fff;
+
+}
+
+.font-Alegreya {
+    font-family: "Alegreya";
+}
+
+.font-size-30 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-bottom-OurBaking {
+    margin-bottom: 10px;
+}
+
+.font-size-17 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.font-size-22 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.color-888 {
+    color: #888;
+}
+
+.Alegreya-Sans {
+    font-family: "Alegreya Sans";
+}
+
+.line-height {
+    line-height: 1.86em;
+
+}
+
+.width-hight-600-500 {
+    width: 378px;
+    height: 315px;
+}
+
+.width-hight-600-auto {
+    width: 378px;
+    height: auto;
+}
+
+.float-right {
+    float: right;
+
+}
+
+.float-left {
+    float: left;
+
+}
+
+
+.margin-right {
+    margin-right: 2%;
+}
+
+.margin-top {
+    margin-top: 4%;
+}
+
+
+.margin-top-test {
+    margin-top: 6%;
+}
+
+.margin-left {
+    margin-left: 2%;
+}
+
+
+
+
+/* ----------------------- */
+/*   Contact Information   */
+/* ----------------------- */
+
+
+.Contact-Information {
+
+    overflow: hidden;
+    background-color: #f8f8f8;
+
+
+}
+
+.map-container {
+    width: 40%;
+    height: 550px;
+    float: right;
+    border: 0;
+}
+
+.margin-bottom-6 {
+
+    margin-bottom: 6%;
+}
+
+
+.margin-bottom-4 {
+
+    margin-bottom: 4%;
+}
+
+
+.font-size-32 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.info-container {
+    width: 40%;
+    height: 550px;
+    float: left;
+
+}
+
+.font-color-868 {
+    color: #686868;
+}
+
+
+.font-color-3030 {
+
+    color: #303030;
+}
+
+.icon-txt2 {
+    margin-left: 10px;
+
+}
+
+
+.icon2 {
+    float: left;
+    width: 46px;
+    height: 46px;
+
+}
+
+
+.margin-left2 {
+    margin-left: 4%;
+}
+
+
+.lasticons2{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(142, 119, 84);
+    border-radius: 100%;
+    margin-left: 5px;
+    
+    
+}
+
+/* ----------------------- */
+/*          footer         */
+/* ----------------------- */
+
+
+
+.footer-info {
+    background-color: #403d38;
+    width: 100%;
+    line-height: 1.86em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.footercontainer {
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.sec1 {
+
+    width: 22%;
+    float: left;
+}
+
+.sec2 {
+    width: 24%;
+    float: left;
+    margin-left: 2%;
+}
+
+h6 {
+    margin-top: 0;
+    margin-bottom: 2%;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Alegreya";
+    font-weight: 400;
+}
+
+.PFooter {
+
+    color: #969696;
+    font-size: 16px;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+}
+
+
+
+
+.imgsec2 {
+    padding-top: 3px;
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+.pclean {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+.mar-top {
+
+    margin-top: 6%;
+}
+
+
+
+.line {
+    border: 0.5px solid red;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.liLine {
+    float: left;
+    width: 100%;
+    padding: 3%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.liLineLAST {
+    float: left;
+    padding: 3%;
+}
+
+
+
+.imgsec3 {
+    padding-top: 3px;
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+
+.backimg2{
+    background-image:url("../images/output-onlinepngtools.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+    
+}
+
+
+
+/* ------------------------------------ */
+
+
+
+.lastfooter{
+    background-color: #353330;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    height: 300px;
+
+}
+
+
+.lastfooterfont{
+    font-family: "Alegreya Sans";
+    font-size: 15px;
+    line-height: 1.86em;
+    color: #797979;
+}
+
+.widthHIGHT{
+    text-align: center;
+    width: 100%;
+
+    display: inline-block;
+   
+}
+
+.lasticons{
+    width: 40px;
+    height: 40px;
+    background-color: #484540;
+    border-radius: 100%;
+    margin-left: 5px;
+    
+    
+}
